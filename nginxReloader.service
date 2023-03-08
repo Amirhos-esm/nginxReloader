@@ -6,6 +6,6 @@ Wants=network.target
 [Service]
 Type=simple
 WorkingDirectory=/home/nginxReloader
-ExecStart=/home/nginxReloader/nginxReloader.sh
+ExecStart=bash /home/nginxReloader/nginxReloader.sh
 
 [Install]
