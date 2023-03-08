@@ -1,0 +1,11 @@
+[Unit]
+Description=nginxReloader
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/nginxReloader
+ExecStart=/home/nginxReloader/nginxReloader.sh
+
+[Install]
