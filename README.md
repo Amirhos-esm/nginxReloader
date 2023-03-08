@@ -1,4 +1,4 @@
-# mavi_bot
+# nginxReloader
 nginx reloader
 
 1-apt install inotify-tools  
