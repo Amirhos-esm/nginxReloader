@@ -9,3 +9,4 @@ WorkingDirectory=/home/nginxReloader
 ExecStart=bash /home/nginxReloader/nginxReloader.sh
 
 [Install]
+WantedBy=multi-user.targetroot
